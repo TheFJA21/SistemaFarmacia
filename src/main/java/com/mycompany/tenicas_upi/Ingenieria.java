@@ -13,6 +13,7 @@ import javax.swing.JOptionPane;
  */
 public class Ingenieria {
     double parcial1, parcial2, examenFinal, promedio;
+    int numero;
     
     public void Programacion(){
         parcial1= Double.parseDouble(JOptionPane.showInputDialog("\t\tDigite la nota obtenida en el primer parcial: "));
